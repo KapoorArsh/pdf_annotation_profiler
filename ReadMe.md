@@ -56,6 +56,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 The main script requires arguments for:
 - **`--submission`**: Path to the student submission PDF.  
 - **`--rubric`**: Path to the rubric PDF.  
+- **`--comments`**: Path to the comments json file.
 - **`--output`**: Path to save the annotated PDF.  
 - **`--logdir`**: Directory to save profiler logs (default: `profiler_logs`).  
 
@@ -64,6 +65,7 @@ Example:
 python annotate_pdf.py \
   --submission input/student_submission.pdf \
   --rubric input/rubric.pdf \
+  --comments comments.json
   --output output/annotated.pdf \
   --logdir profiler_logs
 ```
