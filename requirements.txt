@@ -1,0 +1,9 @@
+torch
+tensorboard
+pillow
+reportlab
+spacy
+numpy
+pandas
+scikit-learn
+matplotlib
