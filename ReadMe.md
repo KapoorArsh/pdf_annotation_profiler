@@ -83,6 +83,7 @@ Then open the displayed URL (e.g., `http://localhost:6006`) to explore CPU/GPU a
 pdf-annotation-profiler/
 │── annotate_pdf.py
 │── requirements.txt
+|── comments.json
 │── profiler_logs/          # Generated logs for TensorBoard
 │── input/                  # Input PDFs and rubric files
 │── output/                 # Annotated PDFs
